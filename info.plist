@@ -215,7 +215,7 @@
 	<key>createdby</key>
 	<string>Andy Rosen</string>
 	<key>description</key>
-	<string>Definitions from https://wordsapiv1.p.rapidapi.com/words</string>
+	<string>Look up word definitions, synonyms, antonyms, and examples</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -238,7 +238,7 @@
 				<key>escaping</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>word</string>
+				<string>{var:keyword}</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -660,7 +660,7 @@
 	<key>readme</key>
 	<string>Lookup word definitions, synonyms, antonyms, and examples from wordsapi.com.
 
-You will need an API key from https://rapidapi.com.  You can create a free account at https://rapidapi.com/auth/sign-up.</string>
+You will need an API key from [Rapid API](https://rapidapi.com).  You can create a free account [here](https://rapidapi.com/auth/sign-up).</string>
 	<key>uidata</key>
 	<dict>
 		<key>02FF24B7-2454-41AA-80BC-0367006B4820</key>
@@ -810,10 +810,33 @@ You will need an API key from https://rapidapi.com.  You can create a free accou
 			<key>variable</key>
 			<string>API_KEY</string>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>word</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>The keyword used to invoke this workflow</string>
+			<key>label</key>
+			<string>Workflow Keyword</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>keyword</string>
+		</dict>
 	</array>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
 	<string>1.0.0</string>
 	<key>webaddress</key>
-	<string>https://github.com/ajrosen/Alfred</string>
+	<string>https://github.com/ajrosen/alfred-word</string>
 </dict>
 </plist>
