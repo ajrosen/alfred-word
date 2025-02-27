@@ -10,7 +10,7 @@ This workflow looks up words from wordsapi.com, using an API key you can create 
 
 1. Create a free account at [Rapid API](https://rapidapi.com/auth/sign-up)
 1. Create an API key
-1. Download the workflow [here](https://github.com/ajrosen/alfred-word/releases/latest/download/alfred.word.alfredworkflow)
+1. Download the workflow [here](https://github.com/ajrosen/alfred-word/releases/latest/download/Word.alfredworkflow)
 1. Open the downloaded file to add it to Alfred
 
 ## Invoking
